@@ -14,7 +14,7 @@ TARGET_NO_BOOTLOADER := true
 TARGET_BOOTLOADER_BOARD_NAME := MSM8917
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/Huawei/SLA-L22/kernel
+TARGET_PREBUILT_KERNEL := device/huawei/slal22/kernel
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 earlyprintk slub_min_objects=12
 BOARD_KERNEL_BASE := 80000000
 BOARD_KERNEL_PAGESIZE := 2048

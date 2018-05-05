@@ -1,4 +1,4 @@
-LOCAL_PATH := device/Huawei/SLA-L22
+LOCAL_PATH := device/huawei/slal22
 
 # $(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr) # на omni 6.0.1 эта строка уже не нужна и от нее только ошибки сыпятся, на 4.4.4 у меня без нее не собиралось.
 
@@ -14,4 +14,4 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, build/target/product/full.mk)
 
-PRODUCT_NAME := SLA-L22
+PRODUCT_NAME := slal22

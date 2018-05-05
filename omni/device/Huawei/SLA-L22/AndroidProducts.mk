@@ -1,3 +1,0 @@
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/SLA-L22.mk \
-    $(LOCAL_DIR)/omni_SLA-L22.mk

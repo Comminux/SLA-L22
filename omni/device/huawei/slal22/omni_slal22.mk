@@ -1,5 +1,5 @@
 # Inherit device configuration
-$(call inherit-product, device/Huawei/SLA-L22/SLA-L22.mk)
+$(call inherit-product, device/huawei/slal22/slal22.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := generic_a53_32
